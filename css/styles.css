@@ -195,6 +195,7 @@ img {
   letter-spacing: 0.4px;
 
   margin-bottom: 8px;
+  margin-top: 8px;
 }
 
 .feature-description {
@@ -613,8 +614,23 @@ img {
   align-items: center;
 }
 
-.logo, 
-.address, 
-.logo-footer{
+.logo,
+.address,
+.logo-footer {
   display: inline-block;
 }
+
+
+
+
+
+/* ----------------------svg-------------------- */
+
+.features-svg {
+
+  border-radius: 4px;
+  background: var(--light-color);
+  padding-top: 24px;
+    padding-bottom: 32px;
+}
+
