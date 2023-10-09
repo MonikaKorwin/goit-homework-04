@@ -247,6 +247,8 @@ img {
   background-color: var(--modalbackground-color);
   margin-right: 24px;
   border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+  
 }
 
 .team-member:last-child {
@@ -273,6 +275,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.32px;
   text-align: center;
+  margin: 0px;
 
 }
 
@@ -541,7 +544,8 @@ img {
 }
 
 .teamer-name {
-  padding: 32px 0px;
+  padding-top: 32px;
+  padding-bottom: 8px;
 }
 
 .main {
@@ -631,11 +635,37 @@ img {
   border-radius: 4px;
   background: var(--light-color);
   padding-top: 24px;
-    padding-bottom: 32px;
+  padding-bottom: 32px;
 }
 
 
 
-.list-social{
+.list-social {
   display: flex;
+  padding-top: 8px;
+  padding-bottom: 32px;
+  padding-left: 0px;
+  max-width: 232px;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.social-list {
+  width: 40px;
+  height: 40px;
+  margin-right: 24px;
+  background-color: var(--primarybrand-color);
+  border-radius: 50%;
+}
+
+.social-list:last-child {
+  padding-right: 0px;
+}
+
+
+.social-icon {
+
+  padding: 12px;
+
+
 }
