@@ -634,3 +634,8 @@ img {
     padding-bottom: 32px;
 }
 
+
+
+.list-social{
+  display: flex;
+}
