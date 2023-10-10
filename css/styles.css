@@ -683,6 +683,9 @@ img {
 
 
 }
+.customer-list{
+  width:calc((100% - 120px) / 6);
+}
 
 .cusotmers-tittle {
   text-align: center;
@@ -693,7 +696,8 @@ img {
   font-style: normal;
   font-weight: 700;
   line-height: 40px;
-  letter-spacing: 1.11;
+  letter-spacing: 0.72px;
+  line-height: 1.11,
   text-transform: capitalize;
   margin-top: 0px;
   margin-bottom: 72px;
@@ -701,11 +705,11 @@ img {
 
 .list-customers {
   display: flex;
-  height: 88px;
+  height:88px;
 
   gap: 24px;
   padding-left: 0px;
-  align-items: center;
+ 
   margin: 0 auto;
   justify-content: space-between;
 
@@ -730,7 +734,7 @@ img {
 
 .customer-link:focus,
 .customer-link:hover,
-customer-link:active {
+.customer-link:active {
   border-color: var(--pressedstate-color);
   color: var(--pressedstate-color);
 
@@ -743,6 +747,7 @@ customer-link:active {
 .socialmedia-tittle {
   color: var(--modal-color);
   margin-bottom: 16px;
+  margin-top: 0px;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -760,7 +765,9 @@ customer-link:active {
 
 
 }
-
+.footer-social{
+  margin: 0;
+}
 
 
 
