@@ -521,7 +521,7 @@ img {
   display: flex;
   width: 1158px;
   margin: 0 auto;
-  gap: 120px;
+  
   align-items: baseline;
 }
 
@@ -733,8 +733,7 @@ img {
 
 
 .customer-link:focus,
-.customer-link:hover,
-.customer-link:active {
+.customer-link:hover {
   border-color: var(--pressedstate-color);
   color: var(--pressedstate-color);
 
@@ -788,6 +787,7 @@ fill:var(--light-color);
 .first-line {
   display: flex;
   flex-direction: column;
+  margin-right: 120px;
 
 
 }
